@@ -1,0 +1,16 @@
+.squareWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 306px;
+  border: 1px solid black;
+}
+.squareWrapper div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+.hasMole {
+  background: url('../static/images/mole.jpg');
+  background-size: cover;
+}

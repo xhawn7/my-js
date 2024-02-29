@@ -1,0 +1,41 @@
+.grid {
+  width: 270px;
+  height: 270px;
+  border: 1px solid slategray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div{
+  width: 30px;
+  height: 30px;
+}
+
+.l1,.l2,.l3 {
+  background-color: #9B2525; 
+}
+
+.l4,.l5 {
+  background-color:#A3D2E2;
+}
+
+.b3 {
+  background-color: #000;
+}
+
+.b1,.b2 {
+  background-color:#CDCDCD;
+}
+
+.startBrick {
+  background-color: blue;
+}
+
+.moveBrick {
+  background-color: green;
+}
+
+.endBrick {
+  background-color: red;
+}
+

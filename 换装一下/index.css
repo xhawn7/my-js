@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+.bg {
+  background-color: #87ceeb;
+  position: relative;
+  min-height: 100vh;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 50px;
+  background-color: azure;
+  outline: none;
+  outline: none;
+  border: 0px;
+}
+
+.btn:hover {
+  background-color: #00ffff02;
+  border: 3px solid white;
+  color: white;
+}
